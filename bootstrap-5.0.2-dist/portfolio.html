@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+   <style>
+        .row .col-6 span{
+            color: red;
+        }
+        .last  span{
+            color: red;
+        }
+        *,a{
+            list-style-type: none;
+            color: white;
+            text-decoration: none;
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+        #test{
+            background: url(bg2.jpg);
+        }
+
+         .container{
+            z-index: 2;
+        } 
+        .content img{
+            display: inline-block;
+            width: 150px;
+            height: 150px;
+            border-radius: 40%;
+        }
+        .content h3{
+            color: red;
+        }
+        .content p,span{
+            color: white;
+        }
+        .judul h3{
+            border-bottom: 1px solid red;
+        }
+        #aboutimg{
+            display: inline-block;
+            width: 400px;
+            height: 400px;
+            border-radius: 5px;
+            box-shadow: 0 0 1px 1px black;
+            object-fit: cover;
+        }
+        .btn button{
+            color: white;
+        }
+        {
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <div id="test" class="container-fluid">
+        <div  class="container-fluid">
+            <nav class="container">
+                <div class="row p-2">
+                    <div class="col-6">
+                       <h3>MIRA<span>CEL</span></h3> 
+                    </div>
+                    <div class="col-6">
+                        <ul class="d-sm-flex justify-content-around align-items-center">
+                            <li><a href="">home</a></li>
+                            <li><a href="">menu</a></li>
+                            <li><a href="">about</a></li>
+                            <li><a href="">service</a></li>
+                            <li><a href="">contact</a></li>
+                            <li><a href="" class="btn btn-outline-dark btn-sm">login</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <main class="container d-flex justify-content-center align-items-center">
+                <div class="content d-flex flex-column align-items-center">
+                    <img class=''src="me1.png" alt="">
+                    <h3 class="h1">Abdul Rojali</h3>
+                    <p>i`m Frontend Developers & <span>software engginer</span></p>
+                </div>
+            </main>
+        </div>
+        <div id="container-dua" class="container-fluid bg-black p-2">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <img id='aboutimg'src="me11.png" alt="" class="d-inline-block h-250 w-100">
+                    </div>
+                    <div class="col-sm-6 d-flex justify-content-center">
+                        <div class="d-flex flex-column gap-1">
+                            <div class="judul">
+                                <p>Discover</p>
+                                <h3 class="h2">About Me</h3>
+                            </div>
+                            <div class="teks-dua h6">
+                                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eligendi dolor eius possimus at repudiandae in iure inventore officia non ipsam!</p>
+                            </div>
+                            <div class="content-dua d-flex justify-content-around ">
+                                <div class="content-utama">
+                                    <ul>
+                                        <li>nama       : abdul rojali</li>
+                                        <li>alamat     :washington city</li>
+                                        <li>no telepon : 08*********/li>
+                                        <li>usia       : 20 tahun</li>
+                                    </ul>
+                                </div>
+                                <div class="content-kedua">
+                                    <ul>
+                                        <li>email     : about@gmail.com</li>
+                                        <li>instagram : about11</li>
+                                        <li>twitter   : about11</li>
+                                        <li>whatsapp  : 08*********</li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="btn">
+                                <button class="btn btn-primary btn-sm">click</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <aside class="container">
+            <div class="row gap-sm-5">
+                <div class="col-12 d-flex flex-column gap-none" >
+                    <p class="mb-1">what i do</p>
+                    <h3 class="h3 ">My Service</h3>
+                </div>
+                <div class="col-12 justify-content-center">
+                    <div class="row justify-content-around align-items-center">
+                        <div  class="col-sm-4 p-1 ">
+                            <i class="fa-brands fa-aws h2"></i>
+                            <h4>service </h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="col-sm-4 p-1 ">
+                            <i class="fa-brands fa-servicestack h2"></i>
+                            <h4>service motor</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                        <div class="col-sm-4 p-1 ">
+                            <i class="fa-brands fa-usps h2"></i>
+                            <h4>service mobil</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </aside>
+        <footer class="container">
+            <div class="row text-center p-5">
+                <!--use to footer profil-->
+                <div class="col-sm-3 justify-content-center">
+                    <h3 class="h3">Miracel Asurance</h3>
+                    <span class="h5">Copyright by miracel</span>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis, vel?</p>
+                </div>
+                <!--use to footer links -->
+                <div class="col-sm-3 justify-content-center">
+                    <ul class="d-flex flex-column gap-2">
+                        <li><a href="">home</a></li>
+                        <li><a href="">menu</a></li>
+                        <li><a href="">about</a></li>
+                        <li><a href="">service</a></li>
+                    </ul>
+                </div>
+                <!--use to footer patners -->
+                <div class="col-sm-3 justify-content-center">
+                    <ul class="d-flex flex-column gap-2">
+                        <li><a href="">facebook</a></li>
+                        <li><a href="">instagram</a></li>
+                        <li><a href="">github</a></li>
+                        <li><a href="">tokopedia</a></li>
+                    </ul>
+
+                </div>
+                <!--use to footer about-->
+                <div class="col-sm-3 justify-content-center">
+                    <h3>thanks you for acording my website</h3>
+                    <p>
+                        i apreciated to respon this website for you thanks you very much 
+                    </p>
+
+                </div>
+            </div>
+        </footer>
+        <div class="last container text-center p-2">
+            <h3>Mira<span>cel</span></h3>
+        </div>
+    </div>
+    <script src="bootstrap-5.0.2-dist/js/bootstrap.bundle.js"></script>
+</body>
+</html>
